@@ -59,12 +59,12 @@ while running :
             #server.append(client)
             input.append(client)
 
-        elif s == sys.stdin:
+        #elif s == sys.stdin:
             #handle standard input
-            test = raw_input("input : ")
-            if (test == 'keluar') :
-                running = 0
-                break
+         #   test = raw_input("input : ")
+          #  if (test == 'keluar') :
+           #     running = 0
+            #    break
 #fungsi untuk keluar server
         else:
             #handle all other sockets
